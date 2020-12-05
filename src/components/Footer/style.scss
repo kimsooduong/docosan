@@ -1,0 +1,25 @@
+.footer {
+  position: relative;
+  margin-top: 50px;
+  height: 200px;
+  background-color: #595959;
+  .content {
+    padding: 30px 50px;
+  }
+  .block-left {
+    text-align: right;
+    color: #ffffff;
+  }
+  .block-right {
+    text-align: right;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+  }
+  .bottom {
+    background-image: linear-gradient(to right, #4ac0a4, #6fbde8);
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}

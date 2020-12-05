@@ -1,0 +1,65 @@
+.list-doctor {
+  text-align: left;
+  .title {
+    font-size: 18px;
+    color: #757575;
+    font-weight: 700;
+  }
+  .filter {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    .order {
+      background-color: #4ac0a4;
+      border-radius: 24px;
+      width: 100px;
+    }
+    .order-by {
+      background-color: unset;
+      border: none;
+      color: #fff;
+      position: relative;
+      text-align: center;
+      &:focus {
+        border: none;
+        outline: none !important;
+      }
+    }
+    .filter-by {
+      background-color: #fff;
+      border-radius: 24px;
+      width: 100px;
+      border: 1px solid #333333;
+      color: #000;
+      position: relative;
+      text-align: center;
+      &:focus {
+        border: none;
+        outline: none !important;
+      }
+      .refresh-icon {
+        margin-left: 5px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .bg-green {
+      background-color: #4ac0a4;
+      color: #ffffff;
+    }
+    .option {
+      position: absolute;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      padding: 8px;
+      margin-top: 5px;
+      label {
+        margin-bottom: none !important;
+        margin-left: 12px;
+      }
+    }
+  }
+}
